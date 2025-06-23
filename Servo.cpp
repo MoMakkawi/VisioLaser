@@ -84,11 +84,12 @@ float points[][2] = {
 
 // Define shape points for drawing (triangle pointing down)
 float points[][2] = {
-  {0, -0.25},
-  {1.0/8, 0},
-  {-1.0/8, 0},
-  {0, -0.25}
+    {0.5, -0.35},
+    {0.25, 0.2},
+    {0.75, 0.2},
+    {0.5, -0.35}
 };
+
 
 // Loop function runs repeatedly
 void loop() {
